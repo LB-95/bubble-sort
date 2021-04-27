@@ -1,6 +1,6 @@
 
 def bubble_sort(array)
-    (array.length-1).times do 
+    (array.length).times do 
         i=0
         while i<(array.length)-1
             if(array[i]>array[i+1])
@@ -11,7 +11,7 @@ def bubble_sort(array)
             i+=1
         end
     end
-   puts array
+   p array
 end
 
 
